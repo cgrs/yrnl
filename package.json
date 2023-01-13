@@ -1,0 +1,38 @@
+{
+  "name": "yrnl",
+  "version": "1.0.0",
+  "description": "Your own bullet journal",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgrs/yrnl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL3.0",
+  "bugs": {
+    "url": "https://github.com/cgrs/yrnl/issues"
+  },
+  "homepage": "https://github.com/cgrs/yrnl#readme",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.2",
+    "@unocss/preset-uno": "^0.48.4",
+    "@unocss/reset": "^0.48.3",
+    "firebase-tools": "^11.20.0",
+    "sass": "^1.57.1",
+    "svelte": "^3.55.1",
+    "svelte-spa-router": "^3.3.0",
+    "unocss": "^0.48.3",
+    "vite": "^4.0.4",
+    "vitest": "^0.27.1"
+  }
+}

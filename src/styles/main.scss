@@ -1,0 +1,16 @@
+// reset
+@import '@unocss/reset/eric-meyer.css';
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  @apply hfull;
+}
+
+body {
+  @apply m0 font-sans bg-neutral-1;
+}

@@ -5,3 +5,5 @@
 </script>
 
 <Router {routes} />
+
+<style uno:preflights global></style>

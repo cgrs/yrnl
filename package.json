@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/cgrs/yrnl#readme",
   "devDependencies": {
+    "@iconify-json/tabler": "^1.1.54",
     "@sveltejs/vite-plugin-svelte": "^2.0.2",
     "@unocss/preset-uno": "^0.48.4",
     "@unocss/reset": "^0.48.3",

@@ -28,7 +28,7 @@
     "@sveltejs/vite-plugin-svelte": "^2.0.2",
     "@unocss/preset-uno": "^0.48.4",
     "@unocss/reset": "^0.48.3",
-    "firebase-tools": "^11.20.0",
+    "netlify-cli": "^12.9.2",
     "sass": "^1.57.1",
     "svelte": "^3.55.1",
     "svelte-spa-router": "^3.3.0",

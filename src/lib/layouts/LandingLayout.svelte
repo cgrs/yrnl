@@ -7,6 +7,8 @@
 <BaseLayout>
   <slot />
   <Footer slot="footer">
-    <NewsletterForm />
+    <NewsletterForm
+      subscribeURL={`https://buttondown.email/api/emails/embed-subscribe/yournal`}
+    />
   </Footer>
 </BaseLayout>

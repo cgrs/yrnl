@@ -12,7 +12,7 @@
         body: new FormData(form),
         mode: 'cors',
       })
-      if (response.status >= 400 && response.status <= 500) {
+      if (!response.ok) {
         const body = await response.text()
         throw body
       }
